@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak Kami - CV. BARUMARTA</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<style>
+    body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+    background-color: #f4f4f9;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #6666ff;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar .logo a {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.navbar nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar nav ul li a {
+    color: #fff;
+    font-weight: 400;
+}
+
+.navbar nav ul li a:hover, .navbar nav ul li a.active {
+    color: #f9a825;
+}
+.logo {
+    display: flex;
+    align-items: center; /* Agar logo dan teks sejajar secara vertikal */
+}
+
+.logo img {
+    height: 50px; /* Atur ukuran tinggi logo */
+    margin-right: 10px; /* Beri jarak antara logo dan teks */
+}
+
+.logo span {
+    font-size: 24px; /* Ukuran teks CV. BARUMARTA */
+    font-weight: 600; /* Tebalkan teks */
+    color: #fff; /* Warna teks putih, sesuai dengan navbar */
+}
+
+/* Kontak Section */
+.contact {
+    padding: 60px 0;
+    text-align: center;
+    background-image: url("backgroundall.png"); /* Pastikan path relatif ke gambar */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+}
+
+.contact-header h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: black; /* Mengatur warna teks menjadi hitam */
+    font-weight: bold; /* Menebalkan teks */
+}
+
+.contact-header p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #555;
+    color: black; /* Mengatur warna teks menjadi hitam */
+    font-weight: bold; /* Menebalkan teks */
+}
+
+/* Kontak Content */
+.contact-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+    
+}
+
+/* Info Kontak */
+.contact-info {
+    flex: 1;
+    text-align: left;
+    color: black; /* Mengatur warna teks menjadi hitam */
+    font-weight: bold; /* Menebalkan teks */
+}
+
+.contact-info h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: black; /* Mengatur warna teks menjadi hitam */
+    font-weight: bold; /* Menebalkan teks */
+}
+
+.contact-info p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    color: black; /* Mengatur warna teks menjadi hitam */
+    font-weight: bold; /* Menebalkan teks */
+}
+
+/* Form Kontak */
+.contact-form {
+    flex: 1;
+    text-align: left;
+}
+
+.contact-form h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.btn-primary {
+    padding: 10px 25px;
+    background-color: #f9a825;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #f57f17;
+}
+
+/* Footer */
+.footer {
+    background-color: #6666ff;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+</style>
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="Logo1.png" alt="index.html" class="logo-img">
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="about.html">Tentang Kami</a></li>
+                    <li><a href="services.html">Layanan</a></li>
+                    <li><a href="produk.html">Produk</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Kontak Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-header">
+                <h1>Kontak Kami</h1>
+                <p>Silakan hubungi kami melalui informasi di bawah ini atau kirim pesan melalui formulir kontak. Kami akan dengan senang hati membantu Anda.</p>
+            </div>
+
+            <div class="contact-content">
+                <!-- Info Kontak -->
+                <div class="contact-info">
+                    <h2>Informasi Kontak</h2>
+                    <p><strong>Alamat:</strong> Perumahan Korpri Badran
+                        Blok D Jl. Dahlia IV No. 254 Rt. 04 RW 09 Kranggan, Kab.Temanggung, Indonesia</p>
+                    <p><strong>Email:</strong> info@barumarta.com</p>
+                    <p><strong>Telepon:</strong> (+62)8783-4545-666</p>
+                    <p><strong>Jam Operasional:</strong> Senin - Jumat, 08.00 - 17.00</p>
+                </div>
+
+                <!-- Form Kontak -->
+                <div class="contact-form">
+                    <h2>Formulir Kontak</h2>
+                    <form action="send_email.php" method="POST">
+                        <div class="form-group">
+                            <label for="name">Nama</label>
+                            <input type="text" id="name" name="name" placeholder="Masukkan nama Anda" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Masukkan email Anda" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Pesan</label>
+                            <textarea id="message" name="message" rows="6" placeholder="Masukkan pesan Anda" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">Kirim Pesan</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 CV. BARUMARTA. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
